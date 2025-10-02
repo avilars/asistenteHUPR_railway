@@ -2,11 +2,11 @@ setuptools==65.5.1
 wheel==0.41.2
 cython==0.29.36
 
-pyyaml==5.3.1   # evita problemas de build
+pyyaml==5.3.1
 
 rasa==3.6.2
 rasa-sdk==3.6.2
-tensorflow==2.11.1
+tensorflow==2.12.0
 scikit-learn==1.1.3
 numpy==1.23.5
 aiohttp==3.8.5
