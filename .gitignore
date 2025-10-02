@@ -11,4 +11,17 @@ __pycache__/
 
 # Ignorar logs
 *.log
+# Ignorar entornos virtuales
+venv/
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar modelos grandes (si no quieres subirlos todos)
+*.tar.gz
+
+# Ignorar logs
+*.log
 
