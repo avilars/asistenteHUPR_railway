@@ -1,7 +1,8 @@
 setuptools==65.5.1
 wheel==0.41.2
 cython==0.29.36
-pyyaml==5.4.1
+
+pyyaml==5.3.1   # versión con wheels estables, evita el fallo de build
 
 rasa==3.6.2
 rasa-sdk==3.6.2
