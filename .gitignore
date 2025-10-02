@@ -1,27 +1,26 @@
-# Ignorar entornos virtuales
-venv/
-
-# Ignorar archivos temporales de Python
+# Archivos de Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+*.db
 
-# Ignorar modelos grandes (si no quieres subirlos todos)
-*.tar.gz
-
-# Ignorar logs
+# Archivos temporales
 *.log
-# Ignorar entornos virtuales
+*.tmp
+
+# Entornos virtuales
+.venv/
+env/
 venv/
 
-# Ignorar archivos temporales de Python
-__pycache__/
-*.pyc
-*.pyo
+# Modelos intermedios, excepto los exportados .tar.gz
+models/*
+!models/*.tar.gz
 
-# Ignorar modelos grandes (si no quieres subirlos todos)
-*.tar.gz
+# Archivos de Rasa cache
+.rasa/
 
-# Ignorar logs
-*.log
+# Archivos de VS Code
+.vscode/
 
