@@ -2,12 +2,12 @@ setuptools==65.5.1
 wheel==0.41.2
 cython==0.29.36
 
-pyyaml==5.3.1   # versión con wheels estables, evita el fallo de build
+pyyaml==5.3.1   # evita problemas de build
 
 rasa==3.6.2
 rasa-sdk==3.6.2
 tensorflow==2.11.1
-scikit-learn==1.2.2
+scikit-learn==1.1.3
 numpy==1.23.5
 aiohttp==3.8.5
 sqlalchemy==1.4.49
