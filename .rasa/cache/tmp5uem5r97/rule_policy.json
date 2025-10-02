@@ -1,0 +1,22 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"start\"}}]": "action_show_options",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"start\"}}, {\"prev_action\": {\"action_name\": \"action_show_options\"}, \"user\": {\"intent\": \"start\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_option\"}}]": "action_handle_choice",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_option\"}}, {\"prev_action\": {\"action_name\": \"action_handle_choice\"}, \"user\": {\"intent\": \"choose_option\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_option\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"start\"}}]",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"start\"}}, {\"prev_action\": {\"action_name\": \"action_show_options\"}, \"user\": {\"intent\": \"start\"}}]",
+      "predicting default action with intent back",
+      "predicting default action with intent session_start",
+      "predicting default action with intent restart",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"choose_option\"}}, {\"prev_action\": {\"action_name\": \"action_handle_choice\"}, \"user\": {\"intent\": \"choose_option\"}}]"
+    ]
+  }
+}

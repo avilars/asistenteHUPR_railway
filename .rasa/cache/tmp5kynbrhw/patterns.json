@@ -1,0 +1,18 @@
+[
+  {
+    "name": "codigo_pregunta",
+    "pattern": "\\b[1-9](?:\\.\\d{1,2}){2,5}\\b"
+  },
+  {
+    "name": "codigo_proceso",
+    "pattern": "\\b0?[1-9]\\b"
+  },
+  {
+    "name": "codigo_tema",
+    "pattern": "\\b[1-9]\\.(?:\\d{1,2})\\b"
+  },
+  {
+    "name": "digito_emoji",
+    "pattern": "[\\u0030-\\u0039]\\uFE0F?\\u20E3"
+  }
+]

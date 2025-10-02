@@ -1,0 +1,280 @@
+version: "3.1"
+
+nlu:
+# ====== Saludos / cierre / volver ======
+- intent: saludar
+  examples: |
+    - hola
+    - buenas
+    - hey
+    - qué tal
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - holaaa
+    - hola bot
+    - hola, qué hay
+
+- intent: volver_menu
+  examples: |
+    - volver
+    - menú
+    - menú principal
+    - volver al menú
+    - volver al inicio
+    - inicio
+    - empezar de nuevo
+    - quiero empezar otra vez
+    - ir al menú
+
+- intent: despedir
+  examples: |
+    - gracias
+    - muchas gracias
+    - perfecto gracias
+    - ok gracias
+    - adiós
+    - hasta luego
+    - nos vemos
+    - chao
+
+- intent: start
+  examples: |
+    - /start
+    - hola
+    - buenas
+    - quiero empezar
+
+# ====== Procesos (1..9) por número, emoji, y nombre con/sin tildes ======
+- intent: seleccionar_proceso
+  examples: |
+    # números "limpios"
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    # con ceros y espacios
+    - 01
+    -  1  
+    - el 1
+    - numero 1
+    - número 1
+    - opcion 1
+    - opción 1
+    - proceso 1
+    - elegir 1
+    - selecciono 1
+    - quiero la 1
+    - la 1
+    # emojis de dígitos
+    - 1️⃣
+    - 2️⃣
+    - 3️⃣
+    - 4️⃣
+    - 5️⃣
+    - 6️⃣
+    - 7️⃣
+    - 8️⃣
+    - 9️⃣
+    # por nombre (todas variantes comunes)
+    - cáncer de mama
+    - cancer de mama
+    - Cáncer de mama
+    - CANCER DE MAMA
+    - mama benigna
+    - Mama benigna
+    - MAMA BENIGNA
+    - cáncer de endometrio
+    - cancer de endometrio
+    - Cáncer de endometrio
+    - CANCER DE ENDOMETRIO
+    - cáncer de ovario
+    - cancer de ovario
+    - Cáncer de ovario
+    - CANCER DE OVARIO
+    - cáncer de cérvix
+    - cancer de cervix
+    - Cáncer de cérvix
+    - CANCER DE CERVIX
+    - cáncer de vulva
+    - cancer de vulva
+    - Cáncer de vulva
+    - CANCER DE VULVA
+    - cirugía abdominal
+    - cirugia abdominal
+    - Cirugía abdominal
+    - CIRUGIA ABDOMINAL
+    - conización
+    - conizacion
+    - Conización
+    - CONIZACION
+    - histeroscopia
+    - Histeroscopia
+    - HISTEROSCOPIA
+
+# ====== Temas dentro del proceso (1.1, 2.1, 3.1, 7.1, 8.1, 9.1…) y por nombre ======
+- intent: seleccionar_tema
+  examples: |
+    # Por código corto (todas las familias que tienes en el JSON/Excel)
+    - 1.1
+    - 1.2
+    - 1.3
+    - 1.4
+    - 1.5
+    - 1.6
+    - 1.7
+    - 1.8
+    - 1.9
+    - 1.10
+    - 1.11
+    - 2.1
+    - 2.2
+    - 2.3
+    - 2.4
+    - 2.5
+    - 2.6
+    - 2.7
+    - 3.1
+    - 3.2
+    - 3.3
+    - 3.4
+    - 3.5
+    - 7.1
+    - 7.2
+    - 7.3
+    - 7.4
+    - 8.1
+    - 8.2
+    - 9.1
+    - 9.2
+    # Variantes coloquiales de selección
+    - tema 1.1
+    - opcion 1.1
+    - opción 1.1
+    - el 1.1
+    - elegir 1.1
+    # Por nombre de tema (sin depender del proceso)
+    - herida
+    - drenajes
+    - dolor
+    - ejercicios
+    - linfedema
+    - sujetador
+    - prótesis
+    - protesis
+    - cicatriz
+    - vida diaria
+    - apoyo emocional
+    - tratamientos adyuvantes
+    - sintomatología
+    - dudas
+    - puedo bañarme
+    - dudas antes de la intervención
+    - dudas del día antes
+    - dudas del día después
+
+# ====== Preguntas / subtemas profundos (1.1.1, 1.1.2, 1.2.1, …) y enunciados aproximados ======
+- intent: preguntar_subtema
+  examples: |
+    # Códigos habituales (ejemplos representativos de todas las ramas)
+    - 1.1.1
+    - 1.1.2
+    - 1.2.1
+    - 1.2.2
+    - 1.2.4.1
+    - 1.3.1
+    - 1.4.1
+    - 1.5.1
+    - 1.6.1
+    - 1.7.1
+    - 1.8.1
+    - 1.9.1
+    - 1.10.1
+    - 1.11.1
+    - 2.1.1
+    - 2.2.1
+    - 2.3.1
+    - 2.4.1
+    - 2.5.1
+    - 2.6.1
+    - 2.7.1
+    - 3.1.1
+    - 3.2.1
+    - 3.3.1
+    - 3.4.1
+    - 3.5.1
+    - 7.1.1
+    - 7.1.2
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 8.1.1
+    - 8.2.1
+    - 9.1.1
+    - 9.1.2
+    - 9.1.3
+    - 9.1.4
+    - 9.1.5
+    - 9.1.6
+    - 9.1.7
+    - 9.2.1
+    # Formas coloquiales / enunciados aproximados
+    - como cuido la herida
+    - ¿cómo cuido la herida?
+    - información sobre el drenaje
+    - info del drenaje
+    - qué puedo tomar para el dolor
+    - que puedo tomar para el dolor
+    - qué ejercicios puedo hacer
+    - ejercicios recomendados
+    - cómo prevenir o manejar el linfedema
+    - como prevenir el linfedema
+    - qué sujetador debo usar
+    - prótesis externa
+    - necesito una prótesis externa
+    - cómo cuido la cicatriz o la piel
+    - cuidados de la cicatriz
+    - cuándo puedo retomar mi vida diaria
+    - cuando retomo mi vida diaria
+    - creo que necesito ayuda psicológica
+    - dudas con la radioterapia
+    - son mis síntomas normales
+    - tengo dudas sobre el día antes de la intervención
+    - dudas del día después
+    - puedo bañarme
+    # variantes semánticas cortas
+    - cuidados herida
+    - registrar drenaje
+    - dolor que tomar
+    - ejercicios después de cirugía
+    - prevención linfedema
+    - sujetador recomendado
+    - cuidado cicatriz
+    - volver a la vida normal
+    - apoyo emocional
+    - radioterapia dudas
+    - síntomas normales
+    - día antes histeroscopia
+    - día después histeroscopia
+
+# ====== Patrones (regex) que refuerzan números y códigos ======
+- regex: codigo_proceso
+  examples: |
+    - \b0?[1-9]\b
+
+- regex: codigo_tema
+  examples: |
+    - \b[1-9]\.(?:\d{1,2})\b
+
+- regex: codigo_pregunta
+  examples: |
+    - \b[1-9](?:\.\d{1,2}){2,5}\b
+
+- regex: digito_emoji
+  examples: |
+    - [\u0030-\u0039]\uFE0F?\u20E3

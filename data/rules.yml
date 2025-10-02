@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+  - rule: Saludo inicial
+    steps:
+      - intent: saludar
+      - action: utter_bienvenida
+
+  - rule: Seleccionar proceso
+    steps:
+      - intent: seleccionar_proceso
+      - action: action_mostrar_temas
+
+  - rule: Seleccionar tema
+    steps:
+      - intent: seleccionar_tema
+      - action: action_mostrar_subtemas
+
+  - rule: Preguntar subtema
+    steps:
+      - intent: preguntar_subtema
+      - action: action_mostrar_contenido
+
+  - rule: Volver al menú
+    steps:
+      - intent: volver_menu
+      - action: action_volver_menu
+
+  - rule: Despedirse
+    steps:
+      - intent: despedir
+      - action: utter_despedida
+
+  - rule: Dar bienvenida al iniciar
+    steps:
+      - intent: start
+      - action: utter_saludo

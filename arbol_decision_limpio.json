@@ -1,0 +1,156 @@
+{
+  "Cáncer de mama": {
+    "1.1 Herida": {
+      "1.1.1 ¿Cómo cuido la herida?": "1.1.1.1 ✅ Curas diarias tras la ducha: (tanto mama como axila)\n        - Levanta el apósito (NO el esparadrapo de papel).\n        - Secar suavemente con gastar estériles o toalla limpia (Secar por presión, sin arrastrar).\n        - Aplica Clorhexidina (Cristalmina®) encima del esparadrapo de papel   que cubre la cicatriz.\n        - No levantes el esparadrapo hasta la consulta de resultados.\n        - Si se despega/cae: cura igual la cicatriz y coloca gasa con esparadrapo de papel para evitar roce. Puede que veas algún hilo (transparente) en la cicatriz, NO TIRES de ellos (los revisaremos cuando acudas a tu cita o se caerán solos).",
+      "1.1.2 Tengo dudas sobre si está evolucionando correctamente": {
+        "1": "1.1.2.1 ¿Hay alguno de estos signos?\n- Sangrado abundante\n- Fiebre ≥ 38 ºC\n- Herida roja-caliente con pus o mal olor\n- Dolor que no cede pese a medicación\n- Aumento brusco de volumen (mama/zona operada)",
+        "2": {
+          "1": "SI --> ⚠️ Señales de alarma. Contacta con el equipo de Ginecología Oncológica en el 956245307 (de Lunes a Viernes de 8.30 h a 14.30 h), fuera de este horario acude a Urgencias o llama al 112.",
+          "2": "NO --> Contacta con el equipo de Ginecología Oncológica en el 956245307 (de Lunes a Viernes de 8.30 h a 14.30 h)"
+        }
+      }
+    },
+    "1.2 Drenajes": {
+      "1.2.1 Información sobre el drenaje": "1.2.1.1 Un drenaje de mama es un tubo flexible que se inserta en la zona intervenida de una cirugía de mama para evacuar fluidos como sangre, suero o linfa. Su propósito principal es prevenir la acumulación de líquidos, evitando así complicaciones como seromas, hematomas e infecciones, y facilitando una adecuada cicatrización. Los drenajes se retiran una vez que la cantidad de líquido drenado es mínima y el médico lo considera apropiado",
+      "1.2.2 ¿Cómo registro lo que da el drenaje?": "1.2.2.1 Anota volumen que da en 24 h sin aplicar vacío a la perilla.\nTienes cita para valoración/retirada.\nSi hay gran sangrado o aumento del líquido, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario).\nSi tiene cita para valoración y retirada del drenaje si procede , llamar  al  956245307 si es mayor de 100 ml/24 h y así postponemos su cita ya que no se le retirará con esos débitos.",
+      "1.2.3 Me sale líquido por el orificio del drenaje": "1.2.3.1 NO pasa nada, es normal. Acude a la cita programada",
+      "1.2.4 Se me ha salido el drenaje": "1.2.4.1 Llama  al  956245307 y te adelantaremos la cita de revision."
+    },
+    "1.3 Dolor": {
+      "1.3.1 ¿Qué puedo tomar para el dolor?": "1.3.1.1 Comprueba que no eres alergic@ a ninguno de los medicamentos prescritos.\nPuedes probar Paracetamol 1 g cada 8 h; si precisa alternar con Ibuprofeno 600 mg cada 8 h (no dupliques AINEs).\nSi el dolor no cede o aumenta, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario)."
+    },
+    "1.4 Ejercicios": {
+      "1.4.1 ¿Qué ejercicios puedo hacer?": "1.4.1.1 La actividad física regular mejora la calidad de vida, aumenta la supervivencia, ayuda a reducir efectos secundarios como la fatiga y el aumento de peso, y puede disminuir el riesgo de recurrencia. Se recomienda acumular al menos 150 minutos de actividad de intensidad moderada o 75 minutos de intensidad vigorosa por semana, incluyendo ejercicios de fuerza muscular al menos dos días a la semana. Es crucial consultar a un médico antes de comenzar un programa de ejercicios y comenzar lentamente, aumentando la intensidad y duración gradualmente. \n\tPuede consultar ejercicios en la web: https://www.breastcancer.org/es/organizar-la-vida/ejercicio"
+    },
+    "1.5 Linfedema": {
+      "1.5.1¿Cómo prevenir o manejar el linfedema?": "1.5.1.1 🖐️ Linfedema (prevención):\nCuida la piel, evita pinchazos y toma de Tensión Arterial en el brazo afecto.\nProgresión gradual de cargas, evitar sobreesfuerzos iniciales.\nSi hay pesadez/hinchazón persistente → pide valoración.\nPuede consultar ejercicios para prevención del linfedema en la web: https://mdandersonhospiten.es/soy-paciente/en-el-domicilio/prevencion-del-linfedema"
+    },
+    "1.6 Sujetador": {
+      "1.6.1 ¿Qué sujetador o prótesis debo usar?": "1.6.1.1 Usa el sujetador que te recomendamos en consulta hasta la visita de resultados. Tras ello puedes usar un sujetador de soporte suave sin aros que sea cómodo y de tu talla según tolerancia."
+    },
+    "1.7 Prótesis": {
+      "1.7.1 Necesito una Prótesis externa o se me ha deteriorado la que tenía": "1.7.1.1 La prótesis externa debe ser prescrita por Nuestro equipo medico. Acude a la consulta de Hospital de Dia Ginecología Oncológica sin cita (de Lunes a Viernes de 9.00 h a 12.30 h para que te demos la receta. ¡¡RECUERDA traer pegatinas de admission si tienes!!"
+    },
+    "1.8 Cicatriz": {
+      "1.8.1 ¿Cómo cuido la cicatriz o la piel?": "1.8.1.1 Cuando esté cerrada: hidratación diaria; parches/gel de silicona si lo recomendaron para disminuir los queloides.\n Intenta que no de el sol directo, si no Fotoprotección alta (SPF 50+)."
+    },
+    "1.9 Vida diaria": {
+      "1.9.1 ¿Cuándo puedo retomar mi vida diaria?": "1.9.1.1 Eres una mujer normal, puedes hacer vida normal con sentido común. Intenta no movilizar la zona intervenida intensamente.\nLa vida diaria de una paciente intervenida de cáncer de mama implica la readaptación física, emocional y social, con recomendaciones generales que incluyen ejercicio moderado, una dieta equilibrada, un buen descanso y manejo del estrés. Es vital buscar apoyo emocional en familiares y grupos, y ser proactiva en las revisiones médicas. La vuelta a las actividades diarias debe ser progresiva, respetando el propio ritmo y comunicando las necesidades para facilitar la adaptación laboral y personal."
+    },
+    "1.10 Apoyo Emocional": {
+      "1.10.1 Creo que necesito ayuda psicológica": "1.10.1.1 Es normal sentir tristeza o ansiedad. Podemos derivarte a psico-oncología del hospital. (Puedes informarte también en la Asociación Española Contra el Cáncer de tu localidad)\n Si hay ideas de autolesión o suicidio, busca ayuda urgente (112 o acude a urgencias)."
+    },
+    "1.11 Tratamientos adyuvantes": {
+      "1.11.1 Dudas con la Radioterapia": {
+        "1": "1.11.1.1.Información sobre radioterapia",
+        "2": "1.11.1.1.1 La radioterapia para el cáncer de mama usa radiación de alta energía para destruir las células cancerosas, reduciendo el riesgo de recurrencia y mejorando la supervivencia, especialmente después de una cirugía conservadora de mama. Las técnicas incluyen la radioterapia externa, que usa máquinas como el acelerador lineal, y la radioterapia interna (braquiterapia), que introduce una fuente radiactiva cerca del tumor."
+      },
+      "1.11. 2 Dudas con la Quimioterapia, Hormonoterapia o Inmunoterapia": "1.11.2.1 Consulta con tu Oncólogo medico"
+    }
+  },
+  "Mama benigna": {
+    "2.1 Herida": {
+      "2.1.1 ¿Cómo cuido la herida?": "2.1.1.1 ✅ Curas diarias tras la ducha: (tanto mama como axila)\n        - Levanta el apósito (no el esparadrapo de papel).\n        - Secado con golpecitos, sin arrastrar.\n        - Aplica Clorhexidina (Cristalmina) encima del esparadrapo de papel   que cubre la cicatriz.\n        - No levantes el esparadrapo hasta la consulta de resultados.\n        - Si se despega/cae: cura igual la cicatriz y coloca gasa con esparadrapo de papel para evitar roce. Puede que veas algún hilo (transparente) en la cicatriz, NO TIRES de ellos (los revisaremos cuando acudas a tu cita o se caerán solos).",
+      "2.1.2 Tengo dudas sobre si está evolucionando correctamente": {
+        "1": "2.1.2.1 ¿Hay alguno de estos signos?\n- Sangrado abundante\n- Fiebre ≥ 38 ºC\n- Herida roja-caliente con pus o mal olor\n- Dolor que no cede pese a medicación\n- Aumento brusco de volumen (mama/zona operada)",
+        "2": "2.1.2.1.1 SI-->  URGENCIA: ⚠️ Señales de alarma. Acude a Urgencias o llama al 112. En horario, contacta con el equipo: {956245307} ({de Lunes a Viernes de 8.30 h a 14.30 h, fuera de este horario acude a Urgencias})."
+      }
+    },
+    "2.2 Drenajes": {
+      "2.2.1 Información sobre el drenaje": "2.2.1.1 Un drenaje de mama es un tubo flexible que se inserta en la zona intervenida de una cirugía de mama para evacuar fluidos como sangre, suero o linfa. Su propósito principal es prevenir la acumulación de líquidos, evitando así complicaciones como seromas, hematomas e infecciones, y facilitando una adecuada cicatrización. Los drenajes se retiran una vez que la cantidad de líquido drenado es mínima y el médico lo considera apropiado",
+      "2.2.2 ¿Cómo registro lo que da el drenaje?": "2.2.2.1 Anota volumen que da en 24 h sin aplicar vacío a la perilla.\nTienes cita para valoración/retirada.\nSi hay gran sangrado o aumento del líquido, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario).\nSi tiene cita para valoración y retirada del drenaje si procede , llamar  al  956245307 si es mayor de 100 ml/24 h y así postponemos su cita ya que no se le retirará con esos débitos.",
+      "2.2.3 Me sale líquido por el orificio del drenaje": "2.2.3.1 NO pasa nada, es normal. Acude a la cita programada",
+      "2.2.4 Se me ha salido el drenaje": "2.2.4.1 Llama  al  956245307 y te adelantaremos la cita de revision."
+    },
+    "2.3 Dolor": {
+      "2.3.1 ¿Qué puedo tomar para el dolor?": "2.3.1.1 Comprueba que no eres alergic@ a ninguno de los medicamentos prescritos.\nPuedes probar Paracetamol 1 g cada 8 h; si precisa alternar con Ibuprofeno 600 mg cada 8 h (no dupliques AINEs).\nSi el dolor no cede o aumenta, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario)."
+    },
+    "2.4 Ejercicios": {
+      "2.4.1 ¿Qué ejercicios puedo hacer?": "2.4.1.1 La actividad física regular mejora la calidad de vida, aumenta la supervivencia, ayuda a reducir efectos secundarios como la fatiga y el aumento de peso, y puede disminuir el riesgo de recurrencia. Se recomienda acumular al menos 150 minutos de actividad de intensidad moderada o 75 minutos de intensidad vigorosa por semana, incluyendo ejercicios de fuerza muscular al menos dos días a la semana. Es crucial consultar a un médico antes de comenzar un programa de ejercicios y comenzar lentamente, aumentando la intensidad y duración gradualmente. \n\tPuede consultar ejercicios en la web: https://www.breastcancer.org/es/organizar-la-vida/ejercicio"
+    },
+    "2.5 Sujetador": {
+      "2.5.1 ¿Qué sujetador o prótesis debo usar?": "2.5.1.1 Usa el sujetador que te recomendamos en consulta hasta la visita de resultados. Tras ello puedes usar un sujetador de soporte suave sin aros que sea cómodo y de tu talla según tolerancia."
+    },
+    "2.6 Cicatriz": {
+      "2.6.1 ¿Cómo cuido la cicatriz o la piel?": "2.6.1.1 Cuando esté cerrada: hidratación diaria; parches/gel de silicona si lo recomendaron para disminuir los queloides.\n Intenta que no de el sol directo, si no Fotoprotección alta (SPF 50+)."
+    },
+    "2.7 Vida diaria": {
+      "2.7.1 ¿Cuándo puedo retomar mi vida diaria?": "2.7.1.1 Eres una mujer normal, puedes hacer vida normal con sentido común. Intenta no movilizar la zona intervenida intensamente.\nLa vida diaria de una paciente intervenida de cáncer de mama implica la readaptación física, emocional y social, con recomendaciones generales que incluyen ejercicio moderado, una dieta equilibrada, un buen descanso y manejo del estrés. Es vital buscar apoyo emocional en familiares y grupos, y ser proactiva en las revisiones médicas. La vuelta a las actividades diarias debe ser progresiva, respetando el propio ritmo y comunicando las necesidades para facilitar la adaptación laboral y personal."
+    }
+  },
+  "Cáncer de endometrio": {
+    "3.1 Herida": {
+      "3.1.1 ¿Cómo cuido la herida?": {
+        "1": "3.1.1.1 Te han operado por LAPAROSCOPIA",
+        "2": "3.1.1.1.1 Curas las cicatrices levantando el apósito y aplicando Clorhexidina (Cristalmina) sobre ellas y vuelve a colocar el apósito.\nNormalmente los puntos son invertidos y con tejido reabsorbible (Se caen solos y no se ven…). A no ser que te hayamos comunicado otra cosa.\nSi tienes grapas ve al centro de salud para retirarlas a las 7-10 días de la intervención"
+      },
+      "3.1.2 Tengo dudas sobre si está evolucionando correctamente": {
+        "1": "3.1.2.1 ¿Hay alguno de estos signos?\n- Sangrado abundante\n- Fiebre ≥ 38 ºC\n- Herida roja-caliente con pus o mal olor\n- Dolor que no cede pese a medicación\n- Aumento brusco de volumen (mama/zona operada)",
+        "2": "3.1.2.1.1 SI-->  URGENCIA: ⚠️ Señales de alarma. Acude a Urgencias o llama al 112. En horario, contacta con el equipo: {956245307} ({de Lunes a Viernes de 8.30 h a 14.30 h, fuera de este horario acude a Urgencias})."
+      }
+    },
+    "3.2 Dolor": {
+      "3.2.1 ¿Qué puedo tomar para el dolor?": "3.2.1.1 Sigue la pauta que te entregamos al alta hospitalaria.\nComprueba que no eres alergic@ a ninguno de los medicamentos prescritos.\nPuedes probar Paracetamol 1 g cada 8 h; si precisa alternar con Ibuprofeno 600 mg cada 8 h (no dupliques AINEs).\nSi el dolor no cede o aumenta, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario)."
+    },
+    "3.3 Ejercicios": {
+      "3.3.1 ¿Qué ejercicios puedo hacer?": "3.3.1.1 Después de una cirugía de cáncer de endometrio por laparoscopia, debes evitar levantar objetos pesados y hacer esfuerzos durante al menos tres semanas, y no introducir nada en la vagina durante 8 a 12 semanas. \nCamina y muévete gradualmente y reanuda tu actividad laboral y cotidiana de forma paulatina. \nPresta atención a los signos de complicaciones como fiebre, dolor o sangrado excesivo y asiste a todas tus citas de seguimiento para monitorizar tu estado de salud. Para la recuperación del cáncer de endometrio, se recomienda un programa de ejercicio gradual que incluya al menos 150 minutos semanales de actividad aeróbica moderada y 2 días de entrenamiento de fuerza a la semana. Es crucial consultar con un profesional de la salud antes de iniciar cualquier ejercicio y comenzar lentamente, incrementando la intensidad y la duración gradualmente. Los ejercicios beneficiosos abarcan aeróbicos (caminar, nadar), de fuerza (pesas, bandas elásticas), flexibilidad (yoga), y de equilibrio (tai chi)."
+    },
+    "3.4 Linfedema": {
+      "3.4.1 ¿Cómo prevenir o manejar el linfedema?": "3.4.1.1 Si hay pesadez/hinchazón persistente → pide valoración.\nPuede consultar la WEB para prevención del linfedema: https://www.cancer.gov/espanol/cancer/tratamiento/efectos-secundarios/linfedema"
+    },
+    "3.5 Vida diaria": {
+      "3.5.1 ¿Cuándo puedo retomar mi vida diaria?": "3.5.1.1 La vida diaria con cáncer de endometrio se centra en adoptar un estilo de vida saludable para reducir el riesgo y mejorar la recuperación, lo que incluye una dieta equilibrada, ejercicio físico regular, evitar el tabaco y el alcohol excesivo, y priorizar el descanso y el manejo del estrés. Durante el tratamiento y la recuperación, puede haber cambios en la sexualidad y es posible que se necesiten tratamientos como radioterapia o quimioterapia, que pueden afectar la vida diaria\nDebe intentar caminar 30 minutos diarios, evitar cargas durante 4-6 semanas desde la intervención."
+    }
+  },
+  "Cáncer de ovario": {},
+  "Cáncer de cérvix": {},
+  "Cáncer de vulva": {},
+  "Cirugía abdominal": {
+    "7.1 Herida": {
+      "7.1.1 ¿Cómo curo la/las heridas": {
+        "1": "7.1.1.1 Te han operado por LAPAROTOMÍA (Cirugía abierta)",
+        "2": "7.1.1.1.1Curas la cicatriz levantando el apósito y aplicando Clorhexidina (Cristalmina) sobre la misma y vuelve a colocar el apósito.\nSi tienes grapas ve al centro de salud para retirarlas a las 7-10 días de la intervención"
+      },
+      "7.1.2 Tengo dudas sobre si está evolucionando correctamente": {
+        "1": "7.1.2.1 ¿Hay alguno de estos signos?\n- Sangrado abundante\n- Fiebre ≥ 38 ºC\n- Herida roja-caliente con pus o mal olor\n- Dolor que no cede pese a medicación\n- Aumento brusco de volumen (mama/zona operada)",
+        "2": "7.1.2.1.1 SI-->  URGENCIA: ⚠️ Señales de alarma. Acude a Urgencias o llama al 112. En horario, contacta con el equipo: {956245307} ({de Lunes a Viernes de 8.30 h a 14.30 h, fuera de este horario acude a Urgencias})."
+      }
+    },
+    "7.2 Dolor": {
+      "7.2.1 ¿Qué puedo tomar para el dolor?": "7.2.1.1 Sigue la pauta que te entregamos al alta hospitalaria.\nComprueba que no eres alergic@ a ninguno de los medicamentos prescritos.\nPuedes probar Paracetamol 1 g cada 8 h; si precisa alternar con Ibuprofeno 600 mg cada 8 h (no dupliques AINEs).\nSi el dolor no cede o aumenta, llama al 956245307 en el horario de Lunes a Viernes de  8.30 h a 14.30 h o Urgencias (fuera de horario)."
+    },
+    "7.3 Ejercicios": {
+      "7.3.1 ¿Qué ejercicios puedo hacer?": "7.3.1.1 Después de una cirugía abdominal por laparoscopia, debes evitar levantar objetos pesados y hacer esfuerzos durante al menos tres semanas, y no introducir nada en la vagina durante 8 a 12 semanas. \nCamina y muévete gradualmente y reanuda tu actividad laboral y cotidiana de forma paulatina. \nPresta atención a los signos de complicaciones como fiebre, dolor o sangrado excesivo y asiste a todas tus citas de seguimiento para monitorizar tu estado de salud. Para la recuperación del cáncer de endometrio, se recomienda un programa de ejercicio gradual que incluya al menos 150 minutos semanales de actividad aeróbica moderada y 2 días de entrenamiento de fuerza a la semana. Es crucial consultar con un profesional de la salud antes de iniciar cualquier ejercicio y comenzar lentamente, incrementando la intensidad y la duración gradualmente. Los ejercicios beneficiosos abarcan aeróbicos (caminar, nadar), de fuerza (pesas, bandas elásticas), flexibilidad (yoga), y de equilibrio (tai chi)."
+    },
+    "7.4 Vida diaria": {
+      "7.4.1 ¿Cuándo puedo retomar mi vida diaria?": "7.4.1.1 La vida diaria con cáncer de endometrio se centra en adoptar un estilo de vida saludable para reducir el riesgo y mejorar la recuperación, lo que incluye una dieta equilibrada, ejercicio físico regular, evitar el tabaco y el alcohol excesivo, y priorizar el descanso y el manejo del estrés. Durante el tratamiento y la recuperación, puede haber cambios en la sexualidad y es posible que se necesiten tratamientos como radioterapia o quimioterapia, que pueden afectar la vida diaria\nDebe intentar caminar 30 minutos diarios, evitar cargas durante 4-6 semanas desde la intervención.",
+      "7.4.2 ¿Puedo bañarme?": "7.4.2.1 Durante unas 3-4 semanas debe ducharse diariamente. No es recomendable baños de inmersión durante ese tiempo",
+      "7.4.3 ¿Puedo mantener relaciones sexuales con penetración?": "7.4.3.1 Después de una conización, se debe esperar aproximadamente 4 semanas para retomar las relaciones sexuales y otras actividades que impliquen la introducción de objetos en la vagina (como tampones) o baños de inmersión, hasta que el cuello del útero haya cicatrizado completamente para prevenir infecciones y lesiones."
+    }
+  },
+  "Conización": {
+    "8.1 Sintomatología": {
+      "8.1.1 ¿Son mis síntomas normales?": "8.1.1.1 Tras una conización es normal experimentar un sangrado vaginal ligero o moderado durante 2 a 3 semanas, que puede ser rosado, amarillento o con pequeñas manchas de sangre, junto con calambres similares a los menstruales. También es común la secreción de flujo vaginal no maloliente, el cual puede ir aclarando con el tiempo. Se recomienda evitar el uso de tampones y las relaciones sexuales por 4 a 6 semanas para permitir la correcta cicatrización.",
+      "8.1.2 ¿Cuáles son los motivos de urgencia?": "8.1.2.1 Debes acudir a urgencias si presentas tras una conización: sangrado vaginal abundante (más que la menstruación), dolor abdominal intenso que no cede, fiebre (>38ºC)o escalofríos, o un flujo vaginal con mal olor. Otros signos de urgencia incluyen un flujo vaginal abundante y de aspecto purulento."
+    },
+    "8.2 Vida diaria": {
+      "8.2.1 ¿Puedo bañarme?": "8.2.1.1 Durante unas 3-4 semanas debe ducharse diariamente. No es recomendable baños de inmersión durante ese tiempo",
+      "8.2.2 ¿Puedo mantener relaciones sexuales con penetración?": "8.2.2.1 Después de una conización, se debe esperar aproximadamente 4 semanas para retomar las relaciones sexuales y otras actividades que impliquen la introducción de objetos en la vagina (como tampones) o baños de inmersión, hasta que el cuello del útero haya cicatrizado completamente para prevenir infecciones y lesiones.",
+      "8.2.3 ¿Cuándo puedo retomar mi vida diaria?": "8.2.3.1 Después de una conización, se debe esperar aproximadamente 4 semanas para retomar las relaciones sexuales y otras actividades que impliquen la introducción de objetos en la vagina (como tampones) o baños de inmersión, hasta que el cuello del útero"
+    }
+  },
+  "Histeroscopia": {
+    "9.1 Dudas": {
+      "9.1.1 Tengo dudas sobre el día antes de la intervención": "9.1.1.1 La histeroscopia es muy bien tolerada en la mayoría de\nlos casos sin necesidad de anestesia. No obstante, le\nindicaremos una medicación para tomar antes de la\nprueba:\n- Misoprostol 200 mcg, 1-2 comprimidos vía oral o vaginal la noche anterior a la prueba\n(humedecer un poco antes de introducir en\nvagina). En caso de ser realizada en horario de\ntarde, administrar al levantarse.\n- Diazepam 5-10 mg vía oral una hora antes de\nla prueba.\n- Ibuprofeno 600 mg o, en caso de alergia, el\nanalgésico que use habitualmente, 1 comprimido\nvía oral una hora antes de la prueba.\n* Le recordamos que el diazepam puede producir\nsomnolencia y enlentecer la capacidad de\nreacción, por lo que se desaconseja conducir,\npor ello debe venir ACOMPAÑADA a la prueba",
+      "9.1.2 ¿Qué preparación debo hacer el día de antes?": "9.1.2.1 Será avisada telefónicamente desde el hospital para\ncomunicarle el día y la hora de la prueba.\nSe recomienda acudir acompañada de un familiar o\nconocido.\nLa preparación previa del paciente es fundamental y\nasegura que la paciente se encuentre en las mejores\ncondiciones posibles, identificando los riesgos\npersonales en el preoperatorio.\nA continuación, le señalamos sus objetivos más\ninmediatos y previos al día del ingreso:\n- Si toma algún tipo de medicación para\nprevenir coagulos en la sangre, avise a su médico, ya\nque puede precisar modificación previa a la prueba.\n-  Si fuma, abandone el consumo de\ntabaco. Si lo necesita, en su centro de\nsalud le informarán acerca de los programas de\napoyo para dejar de fumar.\n- No consuma alcohol la semana previa\na la prueba.\n-  No es necesario acudir en ayunas, al contrario,\npreferimos que haya desayunado y debe haber\ntomado su medicación habitual.\n-  A veces es necesario algún tipo de tratamiento\nmédico para asegurarse que el día del procedimiento\nno tenga la menstruación (como anticonceptivos).",
+      "9.1.3 ¿Qué es la histeroscopia?": "9.1.3.1 Es un procedimiento sencillo, que no requiere\ningreso hospitalario y que permite visualizar el\ninterior del útero. Se realiza introduciendo un\ninstrumental similar a una cámara de pequeño\ntamaño, llamado histeroscopio, a través del cuello\ndel útero. No se realiza ningún corte o incisión.\nEl histeroscopio va liberando una solución líquida\n(suero fisiológico) para proporcionar una clara visión\ndel trayecto para acceder al interior del útero. Por\ntanto, puede sentir frío o notarse mojada si el\nlíquido refluye.\nDurante el procedimiento, el médico o médica\nvisualizará el interior del útero a través de una\npantalla. Si usted lo desea también puede mirar la\npantalla.\nEs posible que en el mismo momento se puedan\nrealizar pequeñas intervenciones como la toma de\nmuestra del interior del útero para descartar\npatología. la extracción de pólipos endometriales o\nla extracción de DIUs entre otros.",
+      "9.1.4 ¿Por qué me han indicado una histeroscopia?": "9.1.4.1 Los motivos para realizar una histeroscopia pueden ser\ndiversos:\nSangrado vaginal durante la menopausia, sangrado\nmenstrual abundante, irregularidad menstrual,\nsospecha de pólipo o mioma uterino, extracción de\nDIU, estudio de infertilidad.",
+      "9.1.5 ¿Es dolorosa la Histeroscopia?": "9.1.5.1 Para la mayoría de las mujeres, la histeroscopia es un\nprocedimiento rápido, seguro y que se desarrolla con\nleve molestia o incomodidad.\nSin embargo, la percepción individual del dolor es\ndiferente entre las personas y algunas mujeres pueden\nexperimentar un dolor de mayor intensidad. Si durante\nel procedimiento usted experimenta dolor intenso,\nhágalo saber, pues la prueba se puede detener en\ncualquier momento que usted lo desee. En estos\ncasos, se puede ofrecer algún tipo de anestésico local,\nque implica la colocación de un espéculo y la punción\ndirecta del anestésico sobre el cuello del útero.\nEn determinadas situaciones, se puede valorar la\nposibilidad de realizar la histeroscopia con anestesia,\naunque implica riesgos y complicaciones levemente\nsuperiores a la opción sin anestesia. En tal caso,\nrequerirá una valoración por parte del equipo de\nanestesiología.",
+      "9.1.6 Tengo dudas sobre el día después de la intervención": "9.1.6.1 Puede experimentar un dolor similar al dolor\nmenstrual durante unas horas.\nTambién puede presentar pérdidas de sangre por\nvagina durante la primera semana tras la\nhisteroscopia.\nLa mayoría de las mujeres pueden reincorporarse a su\nactividad habitual el mismo día.\nPuede ducharse con normalidad, per se recomienda\nevitar inmersión en agua (bañera, piscina) en las\nprimeras 48 horas.\nLa actividad física y sexual se puede reanudar en\ncuanto el sangrado y el dolor hayan cedido.",
+      "9.1.7 ¿Cómo será el seguimiento?": "9.1.7.1 Tras el procedimiento, será informada si precisa de\nvisita de seguimiento. En caso de que no se haya\nevidenciado ningún problema, no necesitará control\nadicional. Si se ha realizado biopsia, se dará cita de\nrevisión y recogida de resultados para valorar la\nnecesidad de tratamiento adicional."
+    },
+    "9.2 Dolor": {
+      "9.2.1 ¿Qué puedo tomar para el dolor?": "9.2.1.1 Comprueba que no eres alergica a ninguno de los medicamentos prescritos.\nPuedes probar Paracetamol 1 g cada 8 h; si precisa alternar con Ibuprofeno 600 mg cada 8 h (no dupliques AINEs).\nSi el dolor no cede o aumenta, acude a tu Urgencias de tu Centro de Salud/ Hospital."
+    }
+  }
+}
