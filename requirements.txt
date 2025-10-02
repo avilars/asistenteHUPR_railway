@@ -1,4 +1,4 @@
-rasa==3.6.18
+rasa==3.6.17
 rasa-sdk==3.6.2
 tensorflow==2.11.1
 scikit-learn
