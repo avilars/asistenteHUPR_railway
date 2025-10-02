@@ -1,7 +1,12 @@
+setuptools==65.5.1
+wheel==0.41.2
+cython==0.29.36
+pyyaml==5.4.1
+
 rasa==3.6.2
 rasa-sdk==3.6.2
 tensorflow==2.11.1
-scikit-learn
-numpy
-aiohttp
-sqlalchemy
+scikit-learn==1.2.2
+numpy==1.23.5
+aiohttp==3.8.5
+sqlalchemy==1.4.49
