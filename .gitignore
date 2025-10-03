@@ -24,3 +24,8 @@ models/*
 # Archivos de VS Code
 .vscode/
 
+.venv/
+__pycache__/
+*.pyc
+*.log
+
