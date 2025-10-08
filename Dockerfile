@@ -1,22 +1,21 @@
-# Imagen base ligera con Python 3.9
 FROM python:3.9-slim
 
-# Evitar prompts y forzar salida directa
-ENV PYTHONUNBUFFERED=1
-
-# Configura el directorio de trabajo
 WORKDIR /app
-
-# Copia todos los archivos del proyecto
 COPY . /app
 
-# Instala dependencias del proyecto
-RUN pip install --no-cache-dir -r requirements.txt
+# Instala dependencias del sistema necesarias para compilar Rasa
+RUN apt-get update && apt-get install -y build-essential gcc g++ git
 
-# Expone el puerto que usará Rasa
+# Actualiza pip y setuptools
+RUN pip install --upgrade pip setuptools wheel
+
+# Instala las dependencias del bot
+RUN pip install -r requirements.txt
+
+# Da permisos al script de inicio
+RUN chmod +x start.sh
+
+# Expone el puerto que usa Railway automáticamente
 EXPOSE 5005
-ENV PORT=5005
 
-# Comando de arranque
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--host", "0.0.0.0", "--port", "5005", "--credentials", "credentials.yml", "--endpoints", "endpoints.yml"]
-
+CMD ["./start.sh"]
