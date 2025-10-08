@@ -1,5 +1,5 @@
-# Imagen base más ligera, ya contiene Rasa preinstalado
-FROM rasa/rasa:3.6.20-spacy
+# Imagen base oficial de Rasa 3.6.20
+FROM rasa/rasa:3.6.20
 
 # Define el directorio de trabajo
 WORKDIR /app
@@ -7,18 +7,22 @@ WORKDIR /app
 # Copia los archivos del proyecto
 COPY . /app
 
-# Desactiva la telemetría de Rasa (reduce logs y procesos extra)
+# Desactiva telemetría (opcional)
 ENV RASA_TELEMETRY_ENABLED=false
 
-# Instala dependencias adicionales de tu bot
-RUN pip install --upgrade pip==24.2 setuptools wheel && \
-    pip install -r requirements.txt
+# Elimina TensorFlow para reducir tamaño
+RUN pip uninstall -y tensorflow tensorflow-intel tensorflow-estimator || true
 
-# Da permisos de ejecución al script de inicio
+# Instala tus dependencias
+RUN pip install --upgrade pip==24.2 setuptools wheel && \
+    pip install -r requirements.txt && \
+    pip cache purge
+
+# Da permisos al script de inicio
 RUN chmod +x start.sh
 
-# Expone el puerto que usa Rasa
+# Expone el puerto
 EXPOSE 5005
 
-# Comando para iniciar el bot
+# Comando por defecto
 CMD ["./start.sh"]
