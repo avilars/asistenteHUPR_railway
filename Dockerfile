@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y build-essential gcc g++ git
 RUN pip install --upgrade pip setuptools wheel
 
 # Instala las dependencias del bot
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip==24.2 setuptools wheel
 
 # Da permisos al script de inicio
 RUN chmod +x start.sh
