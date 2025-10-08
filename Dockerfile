@@ -11,6 +11,7 @@ RUN pip install --upgrade pip setuptools wheel
 
 # Instala las dependencias del bot
 RUN pip install --upgrade pip==24.2 setuptools wheel
+RUN pip install -r requirements.txt
 
 # Da permisos al script de inicio
 RUN chmod +x start.sh
