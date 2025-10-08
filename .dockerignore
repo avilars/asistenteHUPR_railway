@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
+.git/
+.venv/
+.cache/
+tests/
+notebooks/
+docs/
+models/*
+!models/20251008-214320-burgundy-band.tar.gz
