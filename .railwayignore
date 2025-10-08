@@ -1,0 +1,10 @@
+.venv
+__pycache__
+models/
+data/
+tests/
+*.tar.gz
+*.zip
+*.log
+*.pyc
+.DS_Store
