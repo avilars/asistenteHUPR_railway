@@ -1,28 +1,14 @@
-# Imagen base oficial de Rasa 3.6.20
-FROM rasa/rasa:3.6.20
+FROM python:3.9-slim
 
-# Define el directorio de trabajo
 WORKDIR /app
-
-# Copia los archivos del proyecto
 COPY . /app
 
-# Desactiva telemetría (opcional)
-ENV RASA_TELEMETRY_ENABLED=false
+RUN apt-get update && apt-get install -y build-essential gcc g++ git && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Elimina TensorFlow para reducir tamaño
-RUN pip uninstall -y tensorflow tensorflow-intel tensorflow-estimator || true
-
-# Instala tus dependencias
 RUN pip install --upgrade pip==24.2 setuptools wheel && \
-    pip install -r requirements.txt || true && \
-    pip cache purge || true
+    pip install -r requirements.txt
 
-# Da permisos al script de inicio
-RUN chmod +x start.sh
-
-# Expone el puerto
+# EXPOSE y CMD al final
 EXPOSE 5005
-
-# Comando por defecto
 CMD ["./start.sh"]
