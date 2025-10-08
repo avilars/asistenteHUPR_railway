@@ -17,7 +17,7 @@ python-socketio==4.6.1
 SQLAlchemy<2.0
 
 # HTTP y red
-aiohttp==3.8.5
+aiohttp==3.9.5
 requests==2.31.0
 
 # Machine learning clásico
