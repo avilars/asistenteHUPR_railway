@@ -1,15 +1,10 @@
 #!/bin/bash
 echo "🚀 Iniciando Asistente HUPR en Railway..."
 
-# Mostrar contenido de la carpeta models para verificar que el modelo está ahí
-ls -l models
+# Mostrar el contenido del directorio de modelos
+ls models
 
-# Ejecutar Rasa con el modelo correcto
-rasa run \
-  -m models/20251008-214320-burgundy-band.tar.gz \
-  --enable-api \
-  --cors "*" \
-  --credentials credentials.yml \
-  --endpoints endpoints.yml \
-  --host 0.0.0.0 \
-  --port ${PORT:-5005}
+# Iniciar el servidor Rasa con el modelo ya entrenado
+rasa run --enable-api --cors "*" --host 0.0.0.0 --port ${PORT:-5005} \
+  -m models/20251002-142542-similar-delta.tar.gz \
+  --credentials credentials.yml --endpoints endpoints.yml
