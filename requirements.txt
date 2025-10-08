@@ -11,7 +11,7 @@ rasa-sdk==3.6.2
 sanic==21.12.1
 sanic-cors==2.0.1
 python-engineio==4.3.4
-python-socketio==4.6.1
+python-socketio==5.7.2
 
 # ORM y conexión con base de datos
 SQLAlchemy<2.0
