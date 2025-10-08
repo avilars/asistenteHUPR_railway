@@ -10,7 +10,7 @@ rasa-sdk==3.6.2
 # Sanic y servidor web compatibles
 sanic==21.12.1
 sanic-cors==2.0.1
-python-engineio==3.13.2
+python-engineio==4.3.4
 python-socketio==4.6.1
 
 # ORM y conexión con base de datos
