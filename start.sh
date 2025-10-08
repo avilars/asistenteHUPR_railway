@@ -19,13 +19,13 @@ else
   exit 1
 fi
 
-# Ejecutar Rasa
+# Ejecutar Rasa (manteniendo el orden que funcionaba)
 echo "⚙️ Ejecutando servidor Rasa..."
 rasa run \
+  -m models/20251008-214320-burgundy-band.tar.gz \
   --enable-api \
   --cors "*" \
-  --host 0.0.0.0 \
-  --port ${PORT:-5005} \
-  -m models/20251008-214320-burgundy-band.tar.gz \
   --credentials credentials.yml \
-  --endpoints endpoints.yml
+  --endpoints endpoints.yml \
+  --host 0.0.0.0 \
+  --port ${PORT:-5005}
