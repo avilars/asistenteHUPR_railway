@@ -6,9 +6,6 @@ COPY . /app
 # Instala dependencias del sistema necesarias para compilar Rasa
 RUN apt-get update && apt-get install -y build-essential gcc g++ git
 
-# Actualiza pip y setuptools
-RUN pip install --upgrade pip setuptools wheel
-
 # Instala las dependencias del bot
 RUN pip install --upgrade pip==24.2 setuptools wheel
 RUN pip install -r requirements.txt
