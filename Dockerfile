@@ -1,14 +1,22 @@
-FROM python:3.9-slim
+# Imagen base mínima compatible con Rasa 3.6
+FROM python:3.10-alpine
 
+# Carpeta de trabajo
 WORKDIR /app
 COPY . /app
 
-RUN apt-get update && apt-get install -y build-essential gcc g++ git && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+# Instala dependencias básicas necesarias para compilar (sin cache)
+RUN apk add --no-cache build-base g++ git
 
-RUN pip install --upgrade pip==24.2 setuptools wheel && \
-    pip install -r requirements.txt
+# Actualiza pip y setuptools, instala dependencias sin guardar caché (reduce >1GB)
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel
+RUN pip install --no-cache-dir -r requirements.txt
 
-# EXPOSE y CMD al final
+# Permisos al script de arranque
+RUN chmod +x start.sh
+
+# Exponer puerto del servidor Rasa
 EXPOSE 5005
+
+# Comando de inicio del bot
 CMD ["./start.sh"]
