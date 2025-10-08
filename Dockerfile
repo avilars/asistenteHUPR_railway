@@ -15,8 +15,8 @@ RUN pip uninstall -y tensorflow tensorflow-intel tensorflow-estimator || true
 
 # Instala tus dependencias
 RUN pip install --upgrade pip==24.2 setuptools wheel && \
-    pip install -r requirements.txt && \
-    pip cache purge
+    pip install -r requirements.txt || true && \
+    pip cache purge || true
 
 # Da permisos al script de inicio
 RUN chmod +x start.sh
